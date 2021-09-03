@@ -1,0 +1,22 @@
+
+html {
+    margin: 0 auto;
+    max-width: 40rem;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: hotpink;
+    max-width: 120ch;
+    border: 1rem double purple;
+    padding: 1rem;
+}
+
+#title {
+    text-align: center;
+}
+
+.subtitle {
+    font-style: italic;
+}

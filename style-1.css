@@ -1,0 +1,29 @@
+html {
+    margin: 0 auto;
+    max-width: 80ch;
+}
+
+body {
+    background-image: url('images/magenta-tile-1.png');
+    background-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: sans-serif;
+    font-weight: bold;
+    max-width: 120ch;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li:before {
+  content: '●';
+  padding: 20px;
+  text-shadow: 2px 2px black;
+}
