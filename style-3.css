@@ -8,7 +8,6 @@ body {
     font-family: sans-serif;
     background-color: black;
     color: hotpink;
-    max-width: 120ch;
     border: 1rem double purple;
     padding: 1rem;
 }
