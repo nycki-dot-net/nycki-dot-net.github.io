@@ -1,10 +1,11 @@
 
-html {
-    margin: 0 auto;
-    max-width: 40rem;
+body {
+    background-image: url('images/magenta-tile-4.png');
+    max-width: min(90vw, 40rem);
+    margin: 1rem auto;
 }
 
-body {
+main {
     font-family: sans-serif;
     background-color: black;
     color: hotpink;
@@ -12,10 +13,19 @@ body {
     padding: 1rem;
 }
 
-#title {
+h1 {
     text-align: center;
 }
 
 .subtitle {
+    text-align: center;
     font-style: italic;
+}
+
+a:link {
+    color: skyblue
+}
+
+a:visited {
+    color: gray
 }
