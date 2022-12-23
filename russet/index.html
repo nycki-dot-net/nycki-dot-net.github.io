@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>Nupa's Page</title>
+    <meta charset='utf-8'/>
+    <link rel='stylesheet' href='../style.css'>
+</head>
+<body>
+<main>
+
+<header>
+    <h1>Russet</h1>
+    <div class="subtitle">Or, how to reproduce my self-host server.</div>
+</header>
+
+<section>
+    <h2>Hardware</h2>
+    <p>
+        Russet runs on a Raspberry Pi, model 4b with 4GB RAM. It has an Argon metal heat dispersing shell. It's hooked up to a Microtik router over a wired home internet connection. You can use any small computer really. If Raspberry Pi is currently hard to obtain (2022) then I recommend the Pine64 "Rock64" computer as an alternative.
+    </p>
+</section>
+
+<section>
+    <h2>Operating System</h2>
+    <p>
+        There are hundreds of guides on how to install Raspbian (or Armbian) on various systems. It usually boils down to "go download a disk image and write it to an sd card using some disk writing tool". I'll assume you can figure this part out without my help. The important thing for our purposes is that your OS is debian-based, so we have access to the now-familiar 'apt' package mananger (sorry, Arch fans).
+    </p>
+</section>
+
+<!--
+    TODO:
+    - Configure sshd
+    - Manage apps with Podman
+    - Reverse proxy with Nginx
+-->
+
+<section>
+    <h2>Changelog</h2>
+    <p>2022-12-13: New page.</p>
+</section>
+
+</main>
+</body>
+</html>
