@@ -1,15 +1,13 @@
 
 body {
-    background-image: url('images/magenta-tile-4.png');
-    max-width: min(90vw, 40rem);
+    background-color: black;
+    max-width: 100ch;
     margin: 1rem auto;
 }
 
 main {
     font-family: sans-serif;
-    background-color: black;
     color: hotpink;
-    border: 1rem double purple;
     padding: 1rem;
 }
 
@@ -17,7 +15,7 @@ h1 {
     text-align: center;
 }
 
-.subtitle {
+div.subtitle {
     text-align: center;
     font-style: italic;
 }
@@ -30,7 +28,12 @@ a:visited {
     color: gray;
 }
 
-article img {
+section {
+    margin-top: 2ch;
+    border-top: 1ch double mediumvioletred;
+}
+
+section img {
     display: block;
     border: 0.25rem solid skyblue;
     margin-left: auto;
