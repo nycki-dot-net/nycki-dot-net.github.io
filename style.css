@@ -44,10 +44,12 @@ section img {
 .gallery {
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery img {
     border: 0.5ch solid mediumvioletred;
     margin: 1ch;
-    width: 10ch;
+    width: 12ch;
 }
