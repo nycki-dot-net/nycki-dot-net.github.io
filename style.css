@@ -40,3 +40,14 @@ section img {
     margin-right: auto;
     width: 80%;
 }
+
+div.gallery {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div.gallery img {
+    border: 0.5ch solid mediumvioletred;
+    margin: 1ch;
+    width: 10ch;
+}
