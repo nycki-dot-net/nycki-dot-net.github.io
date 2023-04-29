@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<style>
+    body {
+        font-size: 30px;
+        font-family: Calibri, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        border: #000 solid 10px;
+        width: 500px;
+        height: 700px;
+        margin: 10px auto;
+    }
+    table {
+        margin: 0px auto;
+    }
+    td:first-of-type {
+        text-align: left;
+        min-width: 16ch;
+    }
+    td:not(:first-of-type) {
+        min-width: 2ch;
+    }
+    .border {
+        color: white;
+        background-color: white;
+        text-shadow: 
+            -1px -1px 0 #000, 
+            1px -1px 0 #000, 
+            -1px 1px 0 #000, 
+            1px 1px 0 #000;
+    }
+    footer {
+        font-size: 10px;
+    }
+</style>
+
+<br> <!-- Look, vertical alignment is hard ok -->
+<table>
+    <th colspan="6">Poker Hands</th>
+    <tr>
+        <td>Straight Flush</td>
+        <td class="border">A</td>
+        <td class="border">2</td>
+        <td class="border">3</td>
+        <td class="border">4</td>
+        <td class="border">5</td>
+    </tr>
+    <tr>
+        <td>Four of a Kind</td>
+        <td>Q</td>
+        <td>Q</td>
+        <td>Q</td>
+        <td>Q</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Full House</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Flush</td>
+        <td class="border">♥</td>
+        <td class="border">♥</td>
+        <td class="border">♥</td>
+        <td class="border">♥</td>
+        <td class="border">♥</td>
+    </tr>
+    <tr>
+        <td>Straight</td>
+        <td>10</td>
+        <td>J</td>
+        <td>Q</td>
+        <td>K</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>Three of a Kind</td>
+        <td>K</td>
+        <td>K</td>
+        <td>K</td>
+        <td>8</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>Two Pairs</td>
+        <td>A</td>
+        <td>A</td>
+        <td>7</td>
+        <td>7</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>One Pair</td>
+        <td>Q</td>
+        <td>Q</td>
+        <td>4</td>
+        <td>6</td>
+        <td>9</td>
+    </tr>
+</table>
+<p>
+    Ties broken by highest card. 
+    <br> Matched sets have priority.
+    <br> Aces are high, except in A2345.
+</p>
+<p>
+    <span class=border>99</span>542 >
+    <span class=border>88</span>A6<span class="border">4</span> >
+    88A6<span class="border">3</span> 
+</p>
+<footer>©Nick 'nupa' Lamicela, 2023</footer>
