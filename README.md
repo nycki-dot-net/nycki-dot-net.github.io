@@ -1,2 +1,2 @@
-# nupanick.github.io
+# nupa.me
 My Homepage!
