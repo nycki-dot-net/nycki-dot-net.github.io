@@ -12,7 +12,7 @@ static: site
 	cp -r static/* site
 
 site/xkcd.css: src/xkcd-rgb.txt src/xkcd-css.py
-	src/xkcd-css.py > site/xkcd.css
+	python3 src/xkcd-css.py > site/xkcd.css
 
 site/style.css: site/xkcd.css src/style.css
 	cp src/style.css site/style.css
