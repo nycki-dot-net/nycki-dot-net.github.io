@@ -1,14 +1,10 @@
-
-body {
-    background-color: black;
-    max-width: 100ch;
-    margin: 1rem auto;
-}
-
-main {
+:root {
     font-family: sans-serif;
     color: hotpink;
-    padding: 1rem;
+    padding: 2rem;
+    background-color: black;
+    max-width: 100ch;
+    margin: 0 auto;
 }
 
 h1 {

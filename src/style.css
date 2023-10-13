@@ -1,0 +1,10 @@
+:root {
+    color-scheme: dark;
+    max-width: 100ch;
+    margin: auto;
+    padding: 1ch;
+}
+
+section.level2 {
+    border-top: 0.5ch solid;
+}
