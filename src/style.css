@@ -1,30 +1,25 @@
-@import 'xkcd-rgb.css';
+@import 'xkcd.css';
 
 :root {
+    --background: black;
+    --foreground: var(--xkcd-light-grey);
+    --link: var(--xkcd-steel-blue);
+
     font-family: sans-serif;
-    color: var(--xkcd-pale-magenta);
-    padding: 2rem;
-    background-color: black;
+    background-color: var(--background);
+    color: var(--foreground);
     max-width: 100ch;
-    margin: 0 auto;
-}
-
-h1 {
-    text-align: center;
-}
-
-div.subtitle {
-    text-align: center;
-    font-style: italic;
+    margin: auto;
+    padding: 1rem;
 }
 
 a {
-    color: var(--xkcd-magenta);
+    color: var(--link);
 }
 
-section {
+section.level2 {
     margin-top: 2ch;
-    border-top: 1.5ch double;
+    border-top: 1.5ch double var(--xkcd-magenta);
 }
 
 section img {
