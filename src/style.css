@@ -1,10 +1,49 @@
+@import 'xkcd-rgb.css';
+
 :root {
-    color-scheme: dark;
+    font-family: sans-serif;
+    color: var(--xkcd-pale-magenta);
+    padding: 2rem;
+    background-color: black;
     max-width: 100ch;
-    margin: auto;
-    padding: 1ch;
+    margin: 0 auto;
 }
 
-section.level2 {
-    border-top: 0.5ch solid;
+h1 {
+    text-align: center;
+}
+
+div.subtitle {
+    text-align: center;
+    font-style: italic;
+}
+
+a {
+    color: var(--xkcd-magenta);
+}
+
+section {
+    margin-top: 2ch;
+    border-top: 1.5ch double;
+}
+
+section img {
+    display: block;
+    border: 1.5ch double;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 40ch;
+}
+
+.gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    border: 0.5ch solid;
+    margin: 1ch;
+    width: 12ch;
 }
