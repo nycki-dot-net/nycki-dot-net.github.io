@@ -1,2 +1,2 @@
-# nupa.me
-My Homepage!
+# nycki.net
+[My Homepage!](https://nycki.net)
