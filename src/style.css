@@ -22,6 +22,19 @@ section.level2 {
     border-top: 1.5ch double var(--xkcd-magenta);
 }
 
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li + li:before {
+    content: " | ";
+}
+
 section img {
     display: block;
     border: 1.5ch double;
