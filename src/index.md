@@ -14,6 +14,10 @@ Some of these will change as I transition from my old internet name 'Nupa' to my
 - <https://github.com/nycki93>
 - <https://twitter.com/nupanick>
 
+## Blog
+
+[Blog!](/blog)
+
 ## Creations
 
 Stuff I've made!
