@@ -16,7 +16,9 @@ Some of these will change as I transition from my old internet name 'Nupa' to my
 
 ## Blog
 
-[Blog!](/blog)
+[blog!](/blog)
+
+[rss!](/blog/feed.xml)
 
 ## Creations
 
